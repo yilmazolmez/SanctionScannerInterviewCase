@@ -26,7 +26,7 @@ namespace SanctionScannerInterviewCase.Utilities
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error in HttpWebRequestService. {ex.Message}");
+                Console.WriteLine($"Error In HttpWebRequestService. {ex.Message}");
             }
             
             return siteContent;
