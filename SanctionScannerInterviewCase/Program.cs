@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SanctionScannerInterviewCase.Model;
+using System.Collections.Generic;
 
 namespace SanctionScannerInterviewCase
 {
@@ -6,7 +7,11 @@ namespace SanctionScannerInterviewCase
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            List<PostModel> PostModelList = new List<PostModel>();
+
+
+
+
         }
     }
 }

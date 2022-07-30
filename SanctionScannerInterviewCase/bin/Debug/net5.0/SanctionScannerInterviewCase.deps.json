@@ -7,10 +7,34 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "SanctionScannerInterviewCase/1.0.0": {
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.43",
+          "RestSharp": "108.0.0"
+        },
         "runtime": {
           "SanctionScannerInterviewCase.dll": {}
         }
-      }
+      },
+      "HtmlAgilityPack/1.11.43": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.43.0",
+            "fileVersion": "1.11.43.0"
+          }
+        }
+      },
+      "RestSharp/108.0.0": {
+        "dependencies": {
+          "System.Text.Json": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/RestSharp.dll": {
+            "assemblyVersion": "108.0.0.0",
+            "fileVersion": "108.0.0.0"
+          }
+        }
+      },
+      "System.Text.Json/5.0.0": {}
     }
   },
   "libraries": {
@@ -18,6 +42,27 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "HtmlAgilityPack/1.11.43": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C2gpt+S2tdFlQMOC3DK7rHZ8iv6EpDuIo4v0UTUSGX1F1bZ+NAQ3gp77HK8/JfCDszUm3Y2rHoyTp/TpO4KOIA==",
+      "path": "htmlagilitypack/1.11.43",
+      "hashPath": "htmlagilitypack.1.11.43.nupkg.sha512"
+    },
+    "RestSharp/108.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cKWm/SoZ/RGzfDbdhn5YkpR0ZBfoJLJ8S9cdjQwHFqPN1TDQGXbpbC8Olp0OlExazaBqyWyVPv4zHEpcnRF/NA==",
+      "path": "restsharp/108.0.0",
+      "hashPath": "restsharp.108.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+luxMQNZ2WqeffBU7Ml6njIvxc8169NW2oU+ygNudXQGZiarjE7DOtN7bILiQjTZjkmwwRZGTtLzmdrSI/Ustw==",
+      "path": "system.text.json/5.0.0",
+      "hashPath": "system.text.json.5.0.0.nupkg.sha512"
     }
   }
 }
