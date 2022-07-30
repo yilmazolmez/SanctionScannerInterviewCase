@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "xu+P/RgEY0YCj/SS0hP2UwFPkPhoN5AIGanPDFjaS7su8yGMuPbNoVe76rXuHWCQSBg7LGU1aF4cpt0727wukw==",
+  "dgSpecHash": "Ftj7134qyPd2FaEsQsejguROki57jv83gc9paw3MNfy+b5/aherH4WnFs+n3G3x9CjJgjPDxbMTdt/65HRfITQ==",
   "success": true,
   "projectFilePath": "C:\\PROJECTS\\aspNET CORE\\SanctionScannerInterviewCase\\SanctionScannerInterviewCase\\SanctionScannerInterviewCase.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\htmlagilitypack\\1.11.43\\htmlagilitypack.1.11.43.nupkg.sha512"
+  ],
   "logs": []
 }
