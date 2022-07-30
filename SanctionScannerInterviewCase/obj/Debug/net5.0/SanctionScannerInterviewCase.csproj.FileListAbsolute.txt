@@ -30,6 +30,3 @@ C:\PROJECTS\aspNET CORE\SanctionScannerInterviewCase\SanctionScannerInterviewCas
 C:\PROJECTS\aspNET CORE\SanctionScannerInterviewCase\SanctionScannerInterviewCase\obj\Debug\net5.0\ref\SanctionScannerInterviewCase.dll
 C:\PROJECTS\aspNET CORE\SanctionScannerInterviewCase\SanctionScannerInterviewCase\obj\Debug\net5.0\SanctionScannerInterviewCase.pdb
 C:\PROJECTS\aspNET CORE\SanctionScannerInterviewCase\SanctionScannerInterviewCase\obj\Debug\net5.0\SanctionScannerInterviewCase.genruntimeconfig.cache
-C:\PROJECTS\aspNET CORE\SanctionScannerInterviewCase\SanctionScannerInterviewCase\bin\Debug\net5.0\RestSharp.dll
-C:\PROJECTS\aspNET CORE\SanctionScannerInterviewCase\SanctionScannerInterviewCase\obj\Debug\net5.0\SanctionScannerInterviewCase.csproj.CopyComplete
-C:\PROJECTS\aspNET CORE\SanctionScannerInterviewCase\SanctionScannerInterviewCase\bin\Debug\net5.0\HtmlAgilityPack.dll

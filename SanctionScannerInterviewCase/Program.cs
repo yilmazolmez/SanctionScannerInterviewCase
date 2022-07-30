@@ -1,4 +1,6 @@
 ﻿using SanctionScannerInterviewCase.Model;
+using SanctionScannerInterviewCase.Utilities;
+using System;
 using System.Collections.Generic;
 
 namespace SanctionScannerInterviewCase
@@ -9,7 +11,13 @@ namespace SanctionScannerInterviewCase
         {
             List<PostModel> PostModelList = new List<PostModel>();
 
+            var siteContent = HttpWebRequestService.RequestWithUrl("https://www.otokocikinciel.comasdasdsa");
 
+            if (siteContent == null  || siteContent == "")
+            {
+                Console.WriteLine("Empty content");
+                return;
+            }
 
 
         }

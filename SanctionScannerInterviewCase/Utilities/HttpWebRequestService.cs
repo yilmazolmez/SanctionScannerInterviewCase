@@ -13,17 +13,22 @@ namespace SanctionScannerInterviewCase.Utilities
         public static string RequestWithUrl(string url)
         {
             string siteContent = string.Empty;
-
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
-            //request.AutomaticDecompression = DecompressionMethods.GZip;
-
-            using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
-            using (Stream responseStream = response.GetResponseStream())
-            using (StreamReader streamReader = new StreamReader(responseStream))
+            try
             {
-                siteContent = streamReader.ReadToEnd();
-            }
+                HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
 
+                using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+                using (Stream responseStream = response.GetResponseStream())
+                using (StreamReader streamReader = new StreamReader(responseStream))
+                {
+                    siteContent = streamReader.ReadToEnd();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error in HttpWebRequestService. {ex.Message}");
+            }
+            
             return siteContent;
         }
     }
