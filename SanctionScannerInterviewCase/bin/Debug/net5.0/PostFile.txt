@@ -1,0 +1,5 @@
+1 - Post Title = Toyota Corolla 1.4 D 4D Advance M/M - 11000144297, Post Price = 420.250 TL
+2 - Post Title = Fiat Egea Hb 1.4 Fire 95 Hp Easy Plus Benzin Eu6 Hatchback I&#231;ten Yanmali - 11000144288, Post Price = 324.500 TL
+3 - Post Title = Volvo Xc40 1.5 T5 262Hp Recharge R Design Dct - 11000144192, Post Price = 1.950.000 TL
+4 - Post Title = Fiat Doblo Combi Easy 1.3 90 Mjet S1 502 - 21000141463, Post Price = 295.000 TL
+5 - Post Title = Renault Megane Sedan Touch 1.5 Dci Edc 110 Bg - 11000144734, Post Price = 515.000 TL

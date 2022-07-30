@@ -4,6 +4,7 @@ using SanctionScannerInterviewCase.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
+using System.IO;
 using System.Linq;
 
 namespace SanctionScannerInterviewCase
@@ -82,13 +83,11 @@ namespace SanctionScannerInterviewCase
                         count++;
                     }
 
-
                     var avaragePrice = PostModelList.Average(x => x.PostPrice);
                     Console.WriteLine($"Price of Average = {avaragePrice.ToString("#,#", CultureInfo.InvariantCulture).Replace(",", ".") }");
+
+                    StreamClass.StreamWriter(PostModelList);
                 }
-
-
-
             }
             catch (Exception ex)
             {
